@@ -59,7 +59,8 @@ text-shadow: 	-10px 10px 0px #533E5D,
 /*******CARD*****/
 
   .floaty-card {
-    margin: 24px;
+/*	 margin: 25px;*/ /*good for mobile*/
+    margin: 8rem;
     padding: 16px 16px 24px;
     border: 1px solid #fbfbfb;
     border-radius: 8px;
