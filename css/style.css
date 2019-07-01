@@ -1,0 +1,91 @@
+@font-face {
+    font-family: macefont;
+    src: url('../fonts/macefont.otf') format("opentype");
+}
+
+body{
+	font-family: macefont, sans-serif;
+    background-image: url('../lightning.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.mainPage {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	height: 100%;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+#bigHeading {
+	font-family: macefont, san;
+	color: aliceblue;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	font-size: 8rem;
+	
+
+
+text-shadow: 	-10px 10px 0px #533E5D,
+                 -20px 20px 0px #1B142F,
+                 -30px 30px 0px #08060E
+;
+	
+	
+}
+
+
+
+/*******CARD*****/
+
+  .floaty-card {
+    margin: 24px;
+    padding: 16px 16px 24px;
+    border: 1px solid #fbfbfb;
+    border-radius: 8px;
+    -webkit-box-shadow: 4px 4px 40px 10px rgba(215,32,161,0.05), 4px 4px 30px 10px rgba(215,32,161,0.05), 4px 4px 10px 5px rgba(215,32,161,0.05);
+    box-shadow: 8px 8px 80px 20px rgba(83,62,93,1), 4px 4px 30px 10px rgba(83,62,93,1), 4px 4px 10px 5px rgba(215,32,161,0.05); 
+}
+.container   h1 {
+	  text-align: center;
+      font-weight: 500;
+/*      color: #d720a1;*/
+	  color: #533E5D;
+      margin-bottom: 8px;
+      margin-top: 0;
+    }
+ .container   h2 {
+	 text-align: center;
+      font-size: 1.2em;
+      font-weight: 400;
+      margin-top: 8px;
+      margin-bottom: 16px;
+      color: #727272;
+    }
+ .container   p {
+	 text-align: center;
+      font-weight: 300;
+    }
+
+  }
+}
